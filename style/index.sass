@@ -1,0 +1,17 @@
+@import "vars.sass"
+
+.hero
+  background-color: $main
+  height: 80vh
+  display: flex
+  align-items: center
+  justify-content: center
+  position: relative
+  &::after
+    content: ""
+    position: absolute
+    width: 100%
+    bottom: -128px
+    height: 256px
+    background-color: $main
+    border-radius: 50%

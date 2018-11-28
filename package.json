@@ -17,6 +17,13 @@
     "vex",
     "1859"
   ],
+  "postcss": {
+    "parser": "sugarss",
+    "map": false,
+    "plugins": {
+      "postcss-plugin": {}
+    }
+  },
   "author": "alexa griffin",
   "license": "MIT",
   "bugs": {
@@ -24,8 +31,10 @@
   },
   "homepage": "https://github.com/1859W/1859#readme",
   "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
     "next": "^7.0.2",
+    "node-sass": "^4.10.0",
     "react": "^16.6.3",
-    "react-dom": "^16.6.3",
+    "react-dom": "^16.6.3"
   }
 }
