@@ -1,0 +1,24 @@
+{
+  "name": "1859",
+  "version": "0.0.1",
+  "description": "the 1859 robotics website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1859W/1859.git"
+  },
+  "keywords": [
+    "robotics",
+    "vex",
+    "1859"
+  ],
+  "author": "alexa griffin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1859W/1859/issues"
+  },
+  "homepage": "https://github.com/1859W/1859#readme"
+}
