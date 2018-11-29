@@ -8,7 +8,8 @@ export default class Animate extends React.Component {
     super(props)
     this.state = {
       timeout: typeof(props.timeout) == "undefined" ? 0 : props.timeout,
-      func: typeof(props.anime) == "function"
+      func: typeof(props.anime) == "function",
+      in: true
     }
   }
 
@@ -16,7 +17,7 @@ export default class Animate extends React.Component {
     return (
       <Transition
         timeout={ this.state.timeout }
-        in={ true }
+        in={ this.state.in }
         appear={ true }
         onEntered={ e => {
           anime(!this.state.func ? {

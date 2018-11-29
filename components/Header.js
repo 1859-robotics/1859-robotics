@@ -13,7 +13,7 @@ export default () => (
       delay: (el, i) => 100 * i,
       duration: 500,
       opacity: [ 0, 1 ]
-    })} timeout={1000}>
+    })} timeout={400}>
       <ul>
         <li style={{ opacity: 0 }}><Link href="/"><a>home</a></Link></li>
         <li style={{ opacity: 0 }}><Link href="/about"><a>about</a></Link></li>

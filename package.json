@@ -31,8 +31,10 @@
   },
   "homepage": "https://github.com/1859W/1859#readme",
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
     "animejs": "^2.2.0",
+    "material-icons-react": "^1.0.4",
     "next": "^7.0.2",
     "node-sass": "^4.10.0",
     "react": "^16.6.3",
