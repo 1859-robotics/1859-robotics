@@ -32,9 +32,11 @@
   "homepage": "https://github.com/1859W/1859#readme",
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
+    "animejs": "^2.2.0",
     "next": "^7.0.2",
     "node-sass": "^4.10.0",
     "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "react-dom": "^16.6.3",
+    "react-transition-group": "^2.5.0"
   }
 }
