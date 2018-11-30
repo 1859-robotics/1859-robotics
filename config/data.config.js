@@ -15,4 +15,16 @@ export default {
     link: "/",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores aspernatur architecto molestiae provident ex id consectetur velit. Tempora, magni, optio."
   },
+  sponsors: [
+    {
+      name: "Banks engineering",
+      logo: "static/imgs/sponsors/banks-engineering.png",
+      link: "https://www.banksengineering.net"
+    }
+  ],
+  externalContacts: [
+    { name: "email: 123@jctc.com", link: "123@jctc.com" },
+    { name: "twitter: @twitter", link: "twitter-link" },
+    { name: "instagram: @instagram", link: "instagram-link" },
+  ]
 }

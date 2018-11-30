@@ -8,7 +8,7 @@ import Icon from '../components/Icon.js'
 import config from "../config/data.config.js"
 import "../style/index.sass"
 
-const are = ["inventors", "dreamers", "engineers", "students", config.name]
+const are = ["inventors", "dreamers", "the future", "engineers", "students", config.name]
 
 export default class Index extends React.Component {
   static async getInitialProps() {
@@ -34,18 +34,16 @@ export default class Index extends React.Component {
             anime({
               targets: e,
               maxWidth: ["0", "500px"],
-              opacity: [0, 1],
               easing: 'easeInOutCubic',
               duration: 500
             })
             setTimeout(_ => this.setState({
               in: false
-            }), 5000)
+            }), 3000)
           }} exit={e => {
             anime({
               targets: e,
               maxWidth: ["500px", "0"],
-              opacity: [1, 0],
               easing: 'easeInOutCubic',
               duration: 500
             })
@@ -56,7 +54,7 @@ export default class Index extends React.Component {
           }}
           in={ this.state.in }
           timeout={ 100 }>
-            <span style={{opacity: 0, maxWidth: 0 }} className="are">
+            <span style={{ maxWidth: 0 }} className="are">
               { this.state.are }
             </span>
           </Animate>
@@ -92,6 +90,40 @@ export default class Index extends React.Component {
       <section className="brief">
         <h1>Who we are</h1>
         <p>{ config.orgDesc }</p>
+      </section>
+      <section className="sponsors">
+        <div className="inner">
+          <h1>Our Sponsors</h1>
+          <p>A special thanks to the genorous supporters that make this possible.</p>
+          <div className="logos">
+            { config.sponsors.map((sponsor, i) => (
+              <a href={ sponsor.link } key={ i }>
+                <img src={ sponsor.logo } alt={ sponsor.name } />
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+      <section className="contact">
+        <h1>Contact Us</h1>
+        <p>We try to get back within a day however it may take longer depending on the time.</p>
+        <div className="cols">
+          <div className="col">
+            <h2>Send us a message</h2>
+            <input type="text" placeholder="your name"/>
+            <input type="text" placeholder="your email"/>
+            <textarea placeholder="what do you want to talk about?"></textarea>
+            <button>Send it</button>
+          </div>
+          <div className="col">
+            <h2>Or find us at:</h2>
+            { config.externalContacts.map((contact, i) => (
+              <a href={ contact.link } key={ i }>
+                { contact.name }
+              </a>
+            ))}
+          </div>
+        </div>
       </section>
     </div>
   )
