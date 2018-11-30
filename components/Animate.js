@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactDOM from "react-dom"
 import { Transition } from 'react-transition-group'
 import anime from 'animejs'
 
@@ -10,6 +11,22 @@ export default class Animate extends React.Component {
       timeout: typeof(props.timeout) == "undefined" ? 0 : props.timeout,
       funcEnter: typeof(props.enter) == "function",
       funcExit: typeof(props.exit) == "function",
+      scrollIn: false
+    }
+  }
+
+  componentDidMount() {
+    if(this.props.scroll) {
+      const positionFromTop = document.querySelector(this.props.scrollTarget).getBoundingClientRect().top
+      if(positionFromTop - window.innerHeight <= 0 - this.props.offset) {
+        this.setState({ scrollIn: true })
+      }
+      window.addEventListener("scroll", e => {
+        const positionFromTop = document.querySelector(this.props.scrollTarget).getBoundingClientRect().top
+        if(positionFromTop - window.innerHeight <= 0 - this.props.offset) {
+          this.setState({ scrollIn: true })
+        }
+      })
     }
   }
 
@@ -17,7 +34,9 @@ export default class Animate extends React.Component {
     return (
       <Transition
         timeout={ this.state.timeout }
-        in={ typeof this.props.in == "undefined" ? true : this.props.in }
+        in={ this.props.scroll ?
+             this.state.scrollIn :
+             typeof this.props.in == "undefined" ? true : this.props.in }
         appear={ true }
         onEntered={ e => {
           anime(!this.state.funcEnter ? {

@@ -69,32 +69,40 @@ export default class Index extends React.Component {
         </div>
       </div>
       <section className="about">
-        <div className="cards">
-          <div className="card">
-            <Icon icon="edit" />
-            <h1>Blog</h1>
-            <p>Hear our latest musings on anything and everything VEX!</p>
+        <Animate enter={e => ({
+          targets: e.childNodes,
+          delay: (el, i) => 100 * i,
+          duration: 500,
+          translateY: [ -30, 0 ],
+          opacity: [ 0, 1 ],
+        })} scroll={ true } scrollTarget=".about .cards" offset={400}>
+          <div className="cards">
+            <div className="card">
+              <Icon icon="edit" />
+              <h1>Blog</h1>
+              <p>Hear our latest musings on anything and everything VEX!</p>
+            </div>
+            <div className="card">
+              <Icon icon="people" />
+              <h1>Teams</h1>
+              <p>Meet the teams that make up this organization!</p>
+            </div>
+            <div className="card">
+              <Icon icon="public" />
+              <h1>About Us</h1>
+              <p>Learn who this organization is!</p>
+            </div>
           </div>
-          <div className="card">
-            <Icon icon="people" />
-            <h1>Teams</h1>
-            <p>Meet the teams that make up this organization!</p>
-          </div>
-          <div className="card">
-            <Icon icon="public" />
-            <h1>About Us</h1>
-            <p>Learn who this organization is!</p>
-          </div>
-        </div>
+        </Animate>
       </section>
       <section className="brief">
         <h1>Who we are</h1>
         <p>{ config.orgDesc }</p>
       </section>
       <section className="sponsors">
+        <h1>Our Sponsors</h1>
+        <p>A special thanks to the genorous supporters that make this possible.</p>
         <div className="inner">
-          <h1>Our Sponsors</h1>
-          <p>A special thanks to the genorous supporters that make this possible.</p>
           <div className="logos">
             { config.sponsors.map((sponsor, i) => (
               <a href={ sponsor.link } key={ i }>
