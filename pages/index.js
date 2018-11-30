@@ -2,13 +2,14 @@ import React from 'react'
 import anime from 'animejs'
 
 import Header from "../components/Header.js"
+import Footer from "../components/Footer.js"
 import Head from "../components/Head.js"
 import Animate from '../components/Animate.js'
 import Icon from '../components/Icon.js'
 import config from "../config/data.config.js"
 import "../style/index.sass"
 
-const are = ["inventors", "dreamers", "the future", "engineers", "students", config.name]
+const are = ["inventors", "dreamers", "the future", "engineers", "students", "leaders", config.name]
 
 export default class Index extends React.Component {
   static async getInitialProps() {
@@ -75,41 +76,60 @@ export default class Index extends React.Component {
           duration: 500,
           translateY: [ -30, 0 ],
           opacity: [ 0, 1 ],
-        })} scroll={ true } scrollTarget=".about .cards" offset={400}>
+        })} scroll={ true } scrollTarget=".about .cards" offset={300}>
           <div className="cards">
             <div className="card">
               <Icon icon="edit" />
-              <h1>Blog</h1>
+              <h2>Blog</h2>
               <p>Hear our latest musings on anything and everything VEX!</p>
             </div>
             <div className="card">
               <Icon icon="people" />
-              <h1>Teams</h1>
+              <h2>Teams</h2>
               <p>Meet the teams that make up this organization!</p>
             </div>
             <div className="card">
               <Icon icon="public" />
-              <h1>About Us</h1>
+              <h2>About Us</h2>
               <p>Learn who this organization is!</p>
             </div>
           </div>
         </Animate>
       </section>
       <section className="brief">
-        <h1>Who we are</h1>
-        <p>{ config.orgDesc }</p>
+        <Animate enter={e => ({
+          targets: e.childNodes,
+          delay: (el, i) => 100 * i,
+          duration: 500,
+          translateY: [ -30, 0 ],
+          opacity: [ 0, 1 ],
+        })} scroll={ true } scrollTarget=".brief>div" offset={300}>
+          <div>
+            <h1 style={{opacity: 0}}>Who we are</h1>
+            <p style={{opacity: 0}}>{ config.orgDesc }</p>
+          </div>
+        </Animate>
       </section>
       <section className="sponsors">
         <h1>Our Sponsors</h1>
         <p>A special thanks to the genorous supporters that make this possible.</p>
         <div className="inner">
+        <Animate enter={e => ({
+          targets: e.childNodes,
+          delay: (el, i) => 100 * i,
+          duration: 500,
+          scale: [ 0.8, 1 ],
+          opacity: [ 0, 1 ],
+        })} scroll={ true } scrollTarget=".sponsors .logos" offset={100}>
           <div className="logos">
             { config.sponsors.map((sponsor, i) => (
-              <a href={ sponsor.link } key={ i }>
+              <a href={ sponsor.link } key={ i }
+                 style={{ opacity: 0, transform: "scale(0.8)" }}>
                 <img src={ sponsor.logo } alt={ sponsor.name } />
               </a>
             ))}
           </div>
+        </Animate>
         </div>
       </section>
       <section className="contact">
@@ -133,6 +153,7 @@ export default class Index extends React.Component {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   )
 }
