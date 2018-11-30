@@ -37,5 +37,34 @@ export default {
     { name: "email: 123@jctc.com", link: "123@jctc.com" },
     { name: "twitter: @twitter", link: "twitter-link" },
     { name: "instagram: @instagram", link: "instagram-link" },
+  ],
+  historyPara: "JCTC robotics was unofficially founded in 2015, consisting of students from 2 schools, East and west jessamine highschools, we began with almost nothing. \
+                a getto field peiced together from pvc pipes, one team with a bot that wouldn't stay together appart, and \
+                two coaches that were begrugingly accomodating some students' wishes. \
+                Then everything changed in 2016. 1859X was 3rd picked at state on the winning alliance. So we got to go to worlds \
+                this fired everyone up beyond any and all expectations and the program picked up a lot of steam. Suddenly many other students were interested in joining, and many of the existing members \
+                became more dedicated to winning. With this dedication we went on to win 1st and 2nd place, as well as skills, at state in 2017-2018's game: turning point. \
+                three of our teams qualified for worlds that year and even won awards. We hope that our program contenues to grow at this rate for the future.",
+  faq: [
+    {
+      q: "What are your teams?",
+      a: "We have had many teams in our history. Click here to meet them.",
+      link: "/teams"
+    },
+    {
+      q: "What is VEX?",
+      a: "VEX is a robotics competition to engage and inspire students in STEM feilds. VEX create tools that educators and mentors will use to shape the learners of today into the problem solving leaders of tomorrow.",
+      link: "#"
+    },
+    {
+      q: "What else have you done?",
+      a: "We have done many outreach projects as an organization, as teams, and as individuals. Click here to see them.",
+      link: "/outreach"
+    },
+    {
+      q: "Who are your coaches?",
+      a: "We have had three amazing coaches in are 3 years 1 of whom has left us. Without their support we would be nowhere.",
+      link: "/outreach"
+    }
   ]
 }
