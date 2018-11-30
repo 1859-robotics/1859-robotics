@@ -3,6 +3,8 @@ export default {
   school: "JCTC",
   name: "1859 Robotics",
   orgName: "JCTC Robotics",
+  orgDesc: "We are jctc robotics. A robotics organization from nicholasville kentucky. We compete in the VEX robotics competition, \
+            a robotics competition that brings together over 20,000 teams from more than 50 countries.",
   colors: {
     main: "#b37feb",
     red: "#ff7875",

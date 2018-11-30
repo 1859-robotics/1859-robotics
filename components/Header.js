@@ -8,7 +8,7 @@ export default () => (
     <img src="static/logo-white.svg" alt="logo"/>
   </div>
     <nav>
-    <Animate anime={e => ({
+    <Animate enter={e => ({
       targets: e.childNodes,
       delay: (el, i) => 100 * i,
       duration: 500,

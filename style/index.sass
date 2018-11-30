@@ -7,23 +7,23 @@
   align-items: center
   justify-content: center
   position: relative
-  #bg
-    height: 100%
-    width: 100%
-    position: absolute
-    top: 0
-    left: 0
-    opacity: 0.4
-    overflow: hidden
-    // background-image: url("../static/img/hero-1.jpeg")
+  flex-direction: column
+  >img
+    height: 128px
+    margin-bottom: 8px
   >h1
     font-size: 56px
     color: #fff
     position: relative
+    display: inline-block
+    flex-wrap: nowrap
+    text-align: center
     z-index: 1
     span
       position: relative
       display: inline-block
+      white-space: nowrap
+      overflow: hidden
   .latest
     position: absolute
     width: 100%
@@ -50,7 +50,7 @@
     justify-content: center
     .card
       background-color: #fff
-      margin: 8px
+      margin: 16px
       padding: 8px
       width: 100%
       max-width: 300px
@@ -62,3 +62,16 @@
       p
         font-size: 16px
         line-height: 1.6em
+
+.brief
+  background-color: #fafafa
+  text-align: center
+  margin: 64px auto
+  max-width: 960px
+  width: 90%
+  h1
+    font-size: 56px
+    margin-bottom: 8px
+  p
+    line-height: 1.6em
+    font-size: 20px
