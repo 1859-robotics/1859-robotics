@@ -1,7 +1,7 @@
 @import "vars.sass"
 
-.history
-  section
+.about
+  section>div
     max-width: 960px
     margin: 0 auto
     h1
@@ -12,7 +12,8 @@
       line-height: 1.6em
       font-size: 20px
       text-align: center
-.quick
+
+.faq
   background-color: #fafafa
   display: inline-block
   width: 100%
@@ -26,7 +27,7 @@
     flex-wrap: wrap
     margin-bottom: 64px
     .card
-      width: 360px
+      width: calc(50% - 32px)
       margin: 16px
       background-color: #fff
       box-shadow: 0px 4px 12px -4px rgba(0, 0, 0, 0.1)
@@ -43,3 +44,54 @@
         text-align: left
         font-size: 14px
         color: rgba(#000, 0.85)
+.long-desc
+  padding: 32px
+  background-color: $main
+  color: rgba(#000, 0.85)
+
+.coaches
+  background-color: $dark-bg
+  color: rgba(#fff, 0.85)
+  .cards
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-wrap: wrap
+  .card
+    color: rgba(#000, 0.85)
+    background-color: #fff
+    padding: 16px
+    margin: 16px
+    min-width: 300px
+    box-shadow: 0px 4px 12px -4px rgba(0, 0, 0, 0.3)
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+    opacity: 0
+    h3
+      text-align: center
+      margin-bottom: 8px
+      font-size: 24px
+    img
+      width: 128px
+      height: 128px
+      border-radius: 50%
+
+section.mentors
+  >div
+    width: 100%
+    max-width: none
+    padding: 32px
+  .mentors
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-wrap: wrap
+    .mentor
+      max-width: 300px
+      padding: 8px
+      text-align: center
+      img
+        height: 128px
+        width: 128px

@@ -6,36 +6,88 @@ import "../style/about.sass"
 import config from "../config/data.config.js"
 
 export default () => (
-  <div className="history">
+  <div className="about">
     <Head title="About"/>
     <Header />
-    <div className="quick">
     <section className="faq">
-      <h1>FAQs</h1>
-      <Animate enter={e => ({
-        targets: e.childNodes,
-        delay: (el, i) => 100 * i,
-        duration: 300,
-        translateX: (el, i) => [ (i % 2 ? 1 : -1) * 30, 0 ],
-        opacity: [ 0, 1 ],
-      })}>
-      <div className="cards">
-        { config.faq.map((a, i) => (
-          <div key={i} className="card" style={{
-            opacity: 0,
-            transform: "translateX(" + (i % 2 ? 1 : -1) + "px)"
-          }}>
+      <div>
+        <h1>FAQs</h1>
+        <Animate enter={e => ({
+          targets: e.childNodes,
+          delay: (el, i) => 100 * i,
+          duration: 300,
+          translateX: (el, i) => [ (i % 2 ? 1 : -1) * 30, 0 ],
+          opacity: [ 0, 1 ],
+        })}>
+          <div className="cards">
+          { config.faq.map((a, i) => (
+            <a key={i} className="card" style={{
+              opacity: 0,
+              transform: "translateX(" + (i % 2 ? 1 : -1) + "px)"
+            }} href={ a.link }>
             <h3>{ a.q }</h3>
             <p>{ a.a }</p>
+            </a>
+          )) }
           </div>
-        )) }
+        </Animate>
       </div>
-      </Animate>
     </section>
-    </div>
     <section className="long-desc">
-      <h1>Our History</h1>
-      <p>{ config.historyPara }</p>
+      <div>
+        <h1>Our History</h1>
+        <p>{ config.historyPara }</p>
+      </div>
+    </section>
+    <section className="coaches" id="coaches">
+      <div>
+        <h1>Coaches</h1>
+        <p>The current leaders of the 1859 Robotics organization</p>
+        <Animate enter={e => ({
+          targets: e.childNodes,
+          delay: (el, i) => 100 * i,
+          duration: 300,
+          translateX: (el, i) => [ (i % 2 ? 1 : -1) * 30, 0 ],
+          opacity: [ 0, 1 ],
+        })} scroll={ true } scrollTarget="#coaches" offset={300}>
+          <div className="cards">
+          {
+            config.coaches.map((coach, i) => (
+              <div className="card" style={{ transform: "translateX(" + (i % 2 ? 30 : -30) + "px)" }}>
+                <h3>{ coach.name }</h3>
+                <p>{ coach.desc }</p>
+                <img src={coach.pic || "static/imgs/person.png"} alt={coach.name}/>
+              </div>
+            ))
+          }
+          </div>
+        </Animate>
+      </div>
+    </section>
+    <section className="mentors">
+      <div>
+        <h1>Mentors</h1>
+        <p>Past students, past coaches, just really cool people all here. Our greatest thanks goes out to these men and women, the program would not be where it is today without them.</p>
+        <Animate enter={e => ({
+          targets: e.childNodes,
+          delay: (el, i) => 100 * i,
+          duration: 300,
+          translateX: (el, i) => [ (i % 2 ? 1 : -1) * 30, 0 ],
+          opacity: [ 0, 1 ],
+        })} scroll={ true } scrollTarget=".about" offset={300}>
+          <div className="mentors">
+          {
+            config.mentors.map((mentor, i) => (
+              <div className="mentor" style={{ transform: "translateX(" + (i % 2 ? 30 : -30) + "px)" }}>
+                <h3>{ mentor.name }</h3>
+                <p>{ mentor.desc }</p>
+                <img src={mentor.pic || "static/imgs/person.png"} alt={mentor.name}/>
+              </div>
+            ))
+          }
+          </div>
+        </Animate>
+      </div>
     </section>
     <Footer />
   </div>

@@ -25,7 +25,7 @@ export default class Index extends React.Component {
   }
 
   render = _ => (
-    <div>
+    <div classname="home">
       <Head />
       <Header />
       <div className="hero">
@@ -134,7 +134,7 @@ export default class Index extends React.Component {
       </section>
       <section className="contact">
         <h1>Contact Us</h1>
-        <p>We try to get back within a day however it may take longer depending on the time.</p>
+        <p>We'll get back soon, we are happy to answer any questions you may have!</p>
         <div className="cols">
           <div className="col">
             <h2>Send us a message</h2>

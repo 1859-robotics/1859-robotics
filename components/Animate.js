@@ -17,16 +17,19 @@ export default class Animate extends React.Component {
 
   componentDidMount() {
     if(this.props.scroll) {
-      const positionFromTop = document.querySelector(this.props.scrollTarget).getBoundingClientRect().top
-      if(positionFromTop - window.innerHeight <= 0 - this.props.offset) {
-        this.setState({ scrollIn: true })
-      }
-      window.addEventListener("scroll", e => {
-        const positionFromTop = document.querySelector(this.props.scrollTarget).getBoundingClientRect().top
+      const el = document.querySelector(this.props.scrollTarget)
+      if( el ) {
+        const positionFromTop = el.getBoundingClientRect().top
         if(positionFromTop - window.innerHeight <= 0 - this.props.offset) {
           this.setState({ scrollIn: true })
         }
-      })
+        window.addEventListener("scroll", e => {
+          const positionFromTop = el.getBoundingClientRect().top
+          if(positionFromTop - window.innerHeight <= 0 - this.props.offset) {
+            this.setState({ scrollIn: true })
+          }
+        })
+      }
     }
   }
 
