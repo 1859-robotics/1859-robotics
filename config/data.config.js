@@ -43,7 +43,7 @@ export default {
                 two coaches that were begrugingly accomodating some students' weird hobby. \
                 Then everything changed in 2016. 1859X was 3rd picked at state on the winning alliance. So we got to go to worlds \
                 this fired everyone up beyond any and all expectations and the program picked up a lot of steam. Suddenly many other students were interested in joining, and many of the existing members \
-                became more dedicated to winning. With this dedication we went on to win 1st and 2nd place, as well as skills, at state in 2017-2018's game: turning point. \
+                became more dedicated to winning. With this dedication we went on to win 1st and 2nd place, as well as skills, at state in 2017-2018's game: In The Zone. \
                 three of our teams qualified for worlds that year and even won awards. We hope that our program contenues to grow at this rate for the future.",
   faq: [
     {
@@ -54,7 +54,7 @@ export default {
     {
       q: "What is VEX?",
       a: "VEX is a robotics competition to engage and inspire students in STEM feilds. VEX create tools that educators and mentors will use to shape the learners of today into the problem solving leaders of tomorrow.",
-      link: "#"
+      link: "#vex"
     },
     {
       q: "What else have you done?",
@@ -90,5 +90,6 @@ export default {
       name: "andi",
       desc: "Andrea O'bryan, once a coach, has since left the program to pursue being a member of the board of edjucation"
     },
-  ]
+  ],
+  aboutVEX: "VEX Competitions bring STEM skills to life by tasking teams of students with designing and building a robot to play against other teams in a game-based engineering challenge. "
 }

@@ -72,13 +72,13 @@ export default () => (
           targets: e.childNodes,
           delay: (el, i) => 100 * i,
           duration: 300,
-          translateX: (el, i) => [ (i % 2 ? 1 : -1) * 30, 0 ],
+          scale: [ 0.9, 1 ],
           opacity: [ 0, 1 ],
-        })} scroll={ true } scrollTarget=".about" offset={300}>
+        })} scroll={ true } scrollTarget=".about .mentors" offset={300}>
           <div className="mentors">
           {
             config.mentors.map((mentor, i) => (
-              <div className="mentor" style={{ transform: "translateX(" + (i % 2 ? 30 : -30) + "px)" }}>
+              <div className="mentor" style={{ transform: "scale(0.9)", opacity: 0 }}>
                 <h3>{ mentor.name }</h3>
                 <p>{ mentor.desc }</p>
                 <img src={mentor.pic || "static/imgs/person.png"} alt={mentor.name}/>
@@ -88,6 +88,17 @@ export default () => (
           </div>
         </Animate>
       </div>
+    </section>
+    <section className="vex" id="vex">
+      <div>
+        <h1>VEX</h1>
+        <p>{ config.aboutVEX }</p>
+        <a href="https://www.vexrobotics.com/">Learn More Here!</a>
+      </div>
+    </section>
+    <section className="purple">
+      <h2>What is up with all of this purple‽</h2>
+      <p>It is the designer's favorite color. fight me!</p>
     </section>
     <Footer />
   </div>
