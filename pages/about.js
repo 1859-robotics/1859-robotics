@@ -93,7 +93,14 @@ export default () => (
       <div>
         <h1>VEX</h1>
         <p>{ config.aboutVEX }</p>
-        <a href="https://www.vexrobotics.com/">Learn More Here!</a>
+        <Animate enter={{
+          delay: 0,
+          duration: 300,
+          translateY: [-30, 0],
+          opacity: [ 0, 1 ],
+        }} scroll={ true } scrollTarget="#vex a" offset={ 0 }>
+          <a href="https://www.vexrobotics.com/" style={{ transform: "translateY(-30px)", opacity: 0 }}>Learn More Here!</a>
+        </Animate>
       </div>
     </section>
     <section className="purple">
