@@ -91,5 +91,14 @@ export default {
       desc: "Andrea O'bryan, once a coach, has since left the program to pursue being a member of the board of edjucation"
     },
   ],
-  aboutVEX: "VEX Competitions bring STEM skills to life by tasking teams of students with designing and building a robot to play against other teams in a game-based engineering challenge. "
+  aboutVEX: "VEX Competitions bring STEM skills to life by tasking teams of students with designing and building a robot to play against other teams in a game-based engineering challenge. ",
+  teams: [
+    {
+      number: "1859X",
+      name: "The Gladiators",
+      color: "#ffc53d",
+      txtColor: "rgba(0,0,0,0.85)",
+      bgPath: ""
+    }
+  ]
 }
