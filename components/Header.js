@@ -17,6 +17,7 @@ export default () => (
       <ul>
         <li style={{ opacity: 0 }}><Link href="/"><a>home</a></Link></li>
         <li style={{ opacity: 0 }}><Link href="/about"><a>about</a></Link></li>
+        <li style={{ opacity: 0 }}><Link href="/outreach"><a>outreach</a></Link></li>
         <li style={{ opacity: 0 }}><Link href="/teams"><a>teams</a></Link></li>
         <li style={{ opacity: 0 }}><Link href="/blog"><a>blog</a></Link></li>
       </ul>

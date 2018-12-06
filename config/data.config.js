@@ -108,11 +108,18 @@ export default {
       bgPath: "static/imgs/teams/walruses.jpg"
     },
     {
-      number: "1859W",
+      number: "1859S",
       name: "The Cobras",
       color: "#2f54eb",
-      txtColor: "rgba(0,0,0,0.85)",
+      txtColor: "rgba(255,255,255,0.85)",
       bgPath: "static/imgs/teams/cobras.jpg"
+    },
+    {
+      number: "1859Z",
+      name: "The Raptors",
+      color: "#52c41a",
+      txtColor: "rgba(0,0,0,0.85)",
+      bgPath: "static/imgs/teams/raptors.jpg"
     },
   ]
 }
