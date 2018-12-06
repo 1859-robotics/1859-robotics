@@ -189,5 +189,13 @@ export default {
       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
       img: "https://via.placeholder.com/300x140.png"
     },
-  ]
+  ],
+  blog: {
+    posts: [
+      {
+        title: "Our thoughts on turning point",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dolor beatae ad, iste maiores. Possimus ipsam accusantium modi eaque provident pariatur velit, illo dolor earum voluptates, ratione laboriosam dolore iure!"
+      }
+    ]
+  }
 }
