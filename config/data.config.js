@@ -45,6 +45,7 @@ export default {
                 this fired everyone up beyond any and all expectations and the program picked up a lot of steam. Suddenly many other students were interested in joining, and many of the existing members \
                 became more dedicated to winning. With this dedication we went on to win 1st and 2nd place, as well as skills, at state in 2017-2018's game: In The Zone. \
                 three of our teams qualified for worlds that year and even won awards. We hope that our program contenues to grow at this rate for the future.",
+  joinPara: "To join simply contact greg caminisch, please note that you will have to be currrently enrolled in east or west jessamine high school or middle school",
   faq: [
     {
       q: "What are your teams?",
@@ -65,6 +66,11 @@ export default {
       q: "Who are your coaches?",
       a: "We have had three amazing coaches in are 3 years 1 of whom has left us. Without their support we would be nowhere.",
       link: "#coaches",
+    },
+    {
+      q: "How can I join?",
+      a: "We welcome anyone and everyone interested in robotics.",
+      link: "#join",
     }
   ],
   coaches: [
@@ -124,30 +130,64 @@ export default {
   ],
   outreach: [ //TODO: ask for this
     {
-      title: "derp",
+      title: "PLTW",
       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
       img: "https://via.placeholder.com/300x140.png"
     },
     {
-      title: "derp",
+      title: "TSA",
       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
       img: "https://via.placeholder.com/300x140.png"
     },
     {
-      title: "derp",
+      title: "Radio",
       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
       img: "https://via.placeholder.com/300x140.png"
     },
     {
-      title: "derp",
+      title: "library thing",
       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
       img: "https://via.placeholder.com/300x140.png"
     },
     {
-      title: "derp",
+      title: "other thing",
       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
       img: "https://via.placeholder.com/300x140.png"
-
+    },
+    {
+      title: "we prob",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
+      img: "https://via.placeholder.com/300x140.png"
+    },
+    {
+      title: "need",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
+      img: "https://via.placeholder.com/300x140.png"
+    },
+    {
+      title: "at least",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
+      img: "https://via.placeholder.com/300x140.png"
+    },
+    {
+      title: "a lot",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
+      img: "https://via.placeholder.com/300x140.png"
+    },
+    {
+      title: "of these",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
+      img: "https://via.placeholder.com/300x140.png"
+    },
+    {
+      title: "they can be",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
+      img: "https://via.placeholder.com/300x140.png"
+    },
+    {
+      title: "really stretching it tho",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
+      img: "https://via.placeholder.com/300x140.png"
     },
   ]
 }

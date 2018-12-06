@@ -64,6 +64,12 @@ export default () => (
         </Animate>
       </div>
     </section>
+    <section id="join">
+      <div>
+        <h1>Joining { config.orgName }</h1>
+        <p>{ config.joinPara }</p>
+      </div>
+    </section>
     <section className="mentors">
       <div>
         <h1>Mentors</h1>
