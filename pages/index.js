@@ -97,18 +97,10 @@ export default class Index extends React.Component {
         </Animate>
       </section>
       <section className="brief">
-        <Animate enter={e => ({
-          targets: e.childNodes,
-          delay: (el, i) => 100 * i,
-          duration: 500,
-          translateY: [ -30, 0 ],
-          opacity: [ 0, 1 ],
-        })} scroll={ true } scrollTarget=".brief>div" offset={300}>
-          <div>
-            <h1 style={{opacity: 0}}>Who we are</h1>
-            <p style={{opacity: 0}}>{ config.orgDesc }</p>
-          </div>
-        </Animate>
+        <div>
+          <h1>Who we are</h1>
+          <p>{ config.orgDesc }</p>
+        </div>
       </section>
       <section className="sponsors">
         <h1>Our Sponsors</h1>

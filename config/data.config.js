@@ -121,5 +121,33 @@ export default {
       txtColor: "rgba(0,0,0,0.85)",
       bgPath: "static/imgs/teams/raptors.jpg"
     },
+  ],
+  outreach: [ //TODO: ask for this
+    {
+      title: "derp",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
+      img: "https://via.placeholder.com/300x140.png"
+    },
+    {
+      title: "derp",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
+      img: "https://via.placeholder.com/300x140.png"
+    },
+    {
+      title: "derp",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
+      img: "https://via.placeholder.com/300x140.png"
+    },
+    {
+      title: "derp",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
+      img: "https://via.placeholder.com/300x140.png"
+    },
+    {
+      title: "derp",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
+      img: "https://via.placeholder.com/300x140.png"
+
+    },
   ]
 }
