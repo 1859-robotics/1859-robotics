@@ -12,13 +12,13 @@ export default () => (
     <Header />
     <div className="teams">
     { config.teams.map((team, i) => (
-      <div className="team" key={ i } style={{
+      <a className="team" key={ i } style={{
         backgroundColor: team.color
-      }}>
+      }} href={ "/teams/" + team.number }>
       <h1 style={{ color: team.txtColor }}>{ team.number }</h1>
       <img src={team.bgPath} alt={ team.name }/>
       <h2 style={{ color: team.txtColor }}>{ team.name }</h2>
-      </div>
+      </a>
     )) }
     </div>
     <Footer />
