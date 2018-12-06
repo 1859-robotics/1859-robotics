@@ -1,1 +1,36 @@
 @import "vars.sass"
+
+.teams
+  width: 100%
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+  .team
+    height: 360px
+    width: 50%
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+    overflow: hidden
+    position: relative
+    cursor: pointer
+    z-index: 1
+    >img
+      opacity: 0.2
+      z-index: -1
+      position: absolute
+      transform: scale(0.6)
+      +transition(0.3s)
+    >h2
+      position: relative
+      opacity: 0
+      top: -40px
+      +transition(0.3s)
+    &:hover
+      >img
+        opacity: 0.3
+        transform: scale(0.8)
+      >h2
+        opacity: 1
+        top: 0

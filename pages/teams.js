@@ -15,7 +15,9 @@ export default () => (
       <div className="team" key={ i } style={{
         backgroundColor: team.color
       }}>
-      <h1>{ team.name }</h1>
+      <h1>{ team.number }</h1>
+      <img src={team.bgPath} alt={ team.name }/>
+      <h2>{ team.name }</h2>
       </div>
     )) }
     </div>

@@ -98,7 +98,21 @@ export default {
       name: "The Gladiators",
       color: "#ffc53d",
       txtColor: "rgba(0,0,0,0.85)",
-      bgPath: ""
-    }
+      bgPath: "static/imgs/teams/gladiators.jpg"
+    },
+    {
+      number: "1859W",
+      name: "The Walruses",
+      color: "#91d5ff",
+      txtColor: "rgba(0,0,0,0.85)",
+      bgPath: "static/imgs/teams/walruses.jpg"
+    },
+    {
+      number: "1859W",
+      name: "The Cobras",
+      color: "#2f54eb",
+      txtColor: "rgba(0,0,0,0.85)",
+      bgPath: "static/imgs/teams/cobras.jpg"
+    },
   ]
 }
