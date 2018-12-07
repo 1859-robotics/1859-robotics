@@ -194,7 +194,8 @@ export default {
     posts: [
       {
         title: "Our thoughts on turning point",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dolor beatae ad, iste maiores. Possimus ipsam accusantium modi eaque provident pariatur velit, illo dolor earum voluptates, ratione laboriosam dolore iure!"
+        url: "blog-post?title=thoughts-on-turning-point",
+        path: "content/thoughts-on-turning-point.md"
       }
     ]
   }

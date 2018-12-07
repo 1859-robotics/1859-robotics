@@ -8,4 +8,4 @@
 - [ ] season review
 - [ ] website design process
 - [ ] some specific stuff about various sub components
-- [ ] 
+- [ ] prob something about bo1

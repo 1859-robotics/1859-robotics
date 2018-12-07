@@ -16,10 +16,10 @@ export default () => (
     { config.outreach.map((action, i) => (
       <Animate key={ i } enter={{
         delay: (el, j) => 300 * j,
-        duration: 600,
+        duration: 300,
         translateX: (el, j) => [ (i % 2 ? 100 : -100), 0 ],
         opacity: [ 0, 1 ],
-      }} scroll={ true } scrollTarget={"#outreach-" + i} timeout={ 600 } offset={ 0 }>
+      }} scroll={ true } scrollTarget={"#outreach-" + i} timeout={ 0 } offset={ 0 }>
         <section className="outreach-item" id={ "outreach-" + i } style={{
           opacity: 0,
           transform: "translateX(" + (i % 2 ? 100 : -100) + "px)"

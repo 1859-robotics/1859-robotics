@@ -104,7 +104,7 @@ export default class Index extends React.Component {
       </section>
       <section className="sponsors">
         <h1>Our Sponsors</h1>
-        <p>A special thanks to the genorous supporters that make this possible. We are proudly sponsored by</p>
+        <p>A special thanks to the genorous supporters that make this possible. <br/> We are proudly sponsored by: </p>
         <div className="inner">
         <Animate enter={e => ({
           targets: e.childNodes,

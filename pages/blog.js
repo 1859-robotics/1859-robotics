@@ -6,21 +6,26 @@ import Footer from "../components/Footer.js"
 import Head from "../components/Head.js"
 import Animate from '../components/Animate.js'
 import Icon from '../components/Icon.js'
+import Link from 'next/link'
 import config from "../config/data.config.js"
-import "../style/index.sass"
+import "../style/blog.sass"
 
 const are = ["inventors", "dreamers", "the future", "engineers", "students", "leaders", config.name]
 
-export default class Index extends React.Component {
-  static async getInitialProps({ path }) {
-    console.log(path)
-    return {}
-  }
+export default class Blog extends React.Component {
   render = _ => (
-    <div className="home">
+    <div className="blog">
       <Head />
       <Header />
-
+      <div className="posts">
+        { config.blog.posts.map((post, i) => (
+          <Link as={`/blog-post/${post.url}`} href={`/blog-post/${post.url}`}>
+            <div className="card">
+              <h1>{ post.title }</h1>
+            </div>
+          </Link>
+        )) }
+      </div>
       <Footer />
     </div>
   )
