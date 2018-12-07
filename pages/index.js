@@ -30,7 +30,7 @@ export default class Index extends React.Component {
       <Header />
       <div className="hero">
         <div className="bg" style={{
-          backgroundImage: `url("static/imgs/hero-0.jpg")`
+          backgroundImage: `url("static/imgs/hero-1.jpeg")`
         }}></div>
         <img src="static/logo-white.svg" alt="logo"/>
         <h1><span>We are&nbsp;</span>
