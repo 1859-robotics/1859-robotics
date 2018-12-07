@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   number: "1859",
   school: "JCTC",
   name: "1859 Robotics",
@@ -191,6 +191,8 @@ export default {
     },
   ],
   blog: {
+    outputDir: "../pages/blog/",
+    inputDir: "./content/blog/",
     posts: [
       {
         title: "Our thoughts on turning point",
