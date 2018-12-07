@@ -7,11 +7,16 @@ import "../../style/blog.sass"
 import config from "../../config/data.config.js"
 
 export default () => (
-  <div>
+  <div className="blog-post">
     <Head title={"Thoughts on turning point"}/>
-    <Header />
-      <h1>Our thoughts on turning point</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis blanditiis, quas sed, nisi incidunt iste perferendis enim maiores ea unde dolore! Ad beatae qui illo praesentium a quod minima accusamus, iure eum ut iusto blanditiis quibusdam fugit doloremque dolor eius.</p>
+    <Header logo="../static/logo-white.svg"/>
+    <div className="content">
+      <div className="by">
+        <h1>Thoughts on turning point</h1>
+        <p>By: Alexa Griffin</p>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis blanditiis, quas sed, nisi incidunt iste perferendis enim maiores ea unde dolore! Ad beatae qui illo praesentium a quod minima accusamus, iure eum ut iusto blanditiis quibusdam fugit doloremque dolor eius.</p>
+    </div>
     <Footer />
   </div>
 )

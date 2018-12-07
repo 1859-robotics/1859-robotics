@@ -7,10 +7,16 @@ import "../../style/blog.sass"
 import config from "../../config/data.config.js"
 
 export default () => (
-  <div>
+  <div className="blog-post">
     <Head title={"%%TITLE%%"}/>
-    <Header />
+    <Header logo="../static/logo-white.svg"/>
+    <div className="content">
+      <div className="by">
+        <h1>%%TITLE%%</h1>
+        <p>By: %%AUTHOR%%</p>
+      </div>
       %%CONTENT%%
+    </div>
     <Footer />
   </div>
 )

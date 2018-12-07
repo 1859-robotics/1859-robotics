@@ -2,10 +2,10 @@ import Link from 'next/link'
 import "../style/header.sass"
 import Animate from "../components/Animate.js"
 
-export default () => (
+export default props => (
   <header id="header">
   <div className="logo">
-    <img src="static/logo-white.svg" alt="logo"/>
+    <img src={props.logo || "static/logo-white.svg"} alt="logo"/>
   </div>
     <nav>
     <Animate enter={e => ({

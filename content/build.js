@@ -41,7 +41,7 @@ readFiles(config.blog.inputDir, (filename, content) => {
 
 
   Object.keys(metadata).forEach(key => {
-    output = output.replace("%%" + key.toUpperCase() + "%%", metadata[key])
+    output = output.replace(new RegExp("%%" + key.toUpperCase() + "%%", 'g'), metadata[key])
   })
 
   fs.writeFile(config.blog.outputDir + filename.replace(".md", ".js"), output, 'utf8', () => {
