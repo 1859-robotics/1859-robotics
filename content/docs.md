@@ -1,5 +1,6 @@
 # documentation
 basically the "meta data" here is just a json object surrounded by 9 "-" ("---------")
+it can only be 1 layer deep because i am lazy
 
 anything is fair game here except for the `%%CONTENT%%` key this is reserved. (technically you could use it but don't come to me when everything breaks)
 

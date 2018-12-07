@@ -1,8 +1,8 @@
----------{
-  "title": "Thoughts on turning point",
-  "author": "Alexa Griffin",
-  "date": "6-12-2018"
-}---------
+---
+title: Thoughts on turning point
+author: Alexa Griffin
+date: 6-12-2018
+---
 
 # Our thoughts on turning point
 

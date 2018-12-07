@@ -6,9 +6,10 @@
   "scripts": {
     "dev": "next",
     "build-content": "node content/build.js",
-    "build": "next build",
+    "build-site": "next build",
     "start": "next start",
-    "export": "npm run build && next export"
+    "export": "npm run build && next export",
+    "build": "npm run build-content && npm run build-site"
   },
   "repository": {
     "type": "git",

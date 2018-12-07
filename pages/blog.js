@@ -19,11 +19,11 @@ export default class Blog extends React.Component {
       <Header />
       <div className="posts">
         { config.blog.posts.map((post, i) => (
-          <Link as={`/blog-post/${post.url}`} href={`/blog-post/${post.url}`}>
+          <a href={post.url}>
             <div className="card">
               <h1>{ post.title }</h1>
             </div>
-          </Link>
+          </a>
         )) }
       </div>
       <Footer />

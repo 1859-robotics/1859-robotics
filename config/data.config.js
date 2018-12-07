@@ -191,13 +191,12 @@ module.exports = {
     },
   ],
   blog: {
-    outputDir: "../pages/blog/",
+    outputDir: "./pages/blog/",
     inputDir: "./content/blog/",
     posts: [
       {
         title: "Our thoughts on turning point",
-        url: "blog-post?title=thoughts-on-turning-point",
-        path: "content/thoughts-on-turning-point.md"
+        url: "blog/thoughts-on-turning-point",
       }
     ]
   }
