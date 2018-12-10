@@ -8,16 +8,28 @@
   border-bottom: 1px solid rgba(#000, 0.1)
   padding: 8px 32px 8px 8px
   max-width: $section-width
-  margin: 32px auto
+  margin: 16px auto
   display: flex
+  +max-width(760px)
+    padding: 8px
+    flex-wrap: wrap
+    text-align: center
+    margin: 8px auto
   align-items: center
   justify-content: center
-  max-width: 90%
+  max-width: 95%
   img
     width: 300px
+    margin: 0 auto
+    +max-width(760px)
+      max-width: 300px
   .txt
     p
-      text-align: left
+      margin: 0 16px 16px
+      +max-width(480px)
+        font-size: 14px
     h2
-      font-size: 24px
-      margin-bottom: 8px
+      font-size: 32px
+      margin: 16px
+      +max-width(480px)
+        font-size: 24px
