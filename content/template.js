@@ -1,5 +1,4 @@
-module.exports.str = `
-import Head from "../../components/Head.js"
+module.exports.str = `import Head from "../../components/Head.js"
 import Header from "../../components/Header.js"
 import Footer from "../../components/Footer.js"
 import Animate from "../../components/Animate.js"
@@ -13,7 +12,7 @@ export default () => (
     <div className="content">
       <div className="by">
         <h1>%%TITLE%%</h1>
-        <p>By: %%AUTHOR%%</p>
+        <p>By: %%AUTHOR%% - %%DATE%%</p>
       </div>
       %%CONTENT%%
     </div>
