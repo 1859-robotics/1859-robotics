@@ -63,14 +63,6 @@ export default class Index extends React.Component {
             </span>
           </Animate>
         </h1>
-        <div className="latest">
-        <Animate enter={{ translateY: [30, 0], opacity: [0, 1], duration: 500}} timeout={ 200 }>
-          <div className="card" style={{opacity: 0, transform: "translateY(30px)"}}>
-            <h3>The Latest: </h3>
-            <h1>{ config.latest.title }</h1>
-          </div>
-        </Animate>
-        </div>
       </div>
       <section className="about">
         <Animate enter={e => ({
