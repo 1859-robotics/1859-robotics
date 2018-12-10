@@ -202,6 +202,10 @@ module.exports = {
         title: "In the zone season review",
         url: "blog/in-the-zone-season-review",
       },
+      {
+        title: "The design process",
+        url: "blog/the-design-process",
+      },
     ]
   }
 }
