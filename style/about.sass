@@ -1,14 +1,17 @@
 @import "vars.sass"
 
-.about
-  section
-    padding-bottom: 32px
-  section>div
+section
+  padding-bottom: 32px
+  >div
     max-width: $section-width
     width: 90%
     margin: 0 auto
     h1
       font-size: 56px
+      +max-width(640px)
+        font-size: 42px
+      +max-width(520px)
+        font-size: 36px
       margin-bottom: 8px
       text-align: center
     p
