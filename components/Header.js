@@ -7,7 +7,12 @@ export default props => (
   <div className="logo">
     <img src={props.logo || "static/logo-white.svg"} alt="logo"/>
   </div>
-    <nav>
+  <div class="ham" onClick={ e => document.getElementById("header").classList.toggle("active") }>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <nav>
     <Animate enter={e => ({
       targets: e.childNodes,
       delay: (el, i) => 100 * i,

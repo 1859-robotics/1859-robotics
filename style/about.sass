@@ -1,8 +1,11 @@
 @import "vars.sass"
 
 .about
+  section
+    padding-bottom: 32px
   section>div
     max-width: $section-width
+    width: 90%
     margin: 0 auto
     h1
       font-size: 56px
@@ -46,12 +49,12 @@
         color: rgba(#000, 0.85)
 .long-desc
   padding: 32px
-  background-color: $main
-  color: rgba(#000, 0.85)
-
-.coaches
   background-color: $dark-bg
   color: rgba(#fff, 0.85)
+
+.coaches
+  background-color: #fafafa
+  color: rgba(#000, 0.85)
   .cards
     display: flex
     align-items: center
@@ -62,7 +65,8 @@
     background-color: #fff
     padding: 16px
     margin: 16px
-    min-width: 300px
+    max-width: 480px
+    width: 50%
     box-shadow: 0px 4px 12px -4px rgba(0, 0, 0, 0.3)
     display: flex
     align-items: center
@@ -80,10 +84,6 @@
 
 section.mentors
   background-color: #fafafa
-  >div
-    width: 100%
-    max-width: none
-    padding: 32px
   .mentors
     display: flex
     justify-content: center
