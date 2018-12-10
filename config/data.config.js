@@ -197,7 +197,11 @@ module.exports = {
       {
         title: "Our thoughts on turning point",
         url: "blog/thoughts-on-turning-point",
-      }
+      },
+      {
+        title: "In the zone season review",
+        url: "blog/in-the-zone-season-review",
+      },
     ]
   }
 }
