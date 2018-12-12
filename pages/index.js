@@ -73,12 +73,12 @@ export default class Index extends React.Component {
           opacity: [ 0, 1 ],
         })} scroll={ true } scrollTarget=".about .cards" offset={300}>
           <div className="cards">
-            <a className="card" href="#">
+            <a className="card" href="/blog">
               <Icon icon="edit" />
               <h2>Blog</h2>
               <p>Hear our latest musings on anything and everything VEX!</p>
             </a>
-            <a className="card" href="#">
+            <a className="card" href="/teams">
               <Icon icon="people" />
               <h2>Teams</h2>
               <p>Meet the teams that make up this organization!</p>
