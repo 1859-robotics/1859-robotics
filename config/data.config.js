@@ -76,11 +76,11 @@ module.exports = {
   coaches: [
     {
       name: "Greg",
-      desc: "//TODO: ask for this"
+      desc: "I am Greg Caminisch, I am one of the first movers for the 1859 Robotics organization and along with Andrea O'bryan formed the first 1859 team. I still teach engineering at JCTC."
     },
     {
       name: "Megan Banks",
-      desc: "//TODO: ask for this"
+      desc: "I am Megan Banks, I joined just last year however have quickly become 'team mom' I teach engineering at JCTC and Andrea O'bryaan actually taught me bringing the whole thing full circle."
     }
   ],
   mentors: [
