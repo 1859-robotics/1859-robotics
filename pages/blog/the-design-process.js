@@ -1,4 +1,3 @@
-
 import Head from "../../components/Head.js"
 import Header from "../../components/Header.js"
 import Footer from "../../components/Footer.js"
@@ -13,7 +12,7 @@ export default () => (
     <div className="content">
       <div className="by">
         <h1>The design process</h1>
-        <p>By: Alexa Griffin</p>
+        <p>By: Alexa Griffin - 10-12-2018</p>
       </div>
       <p>The engineering design process is a vital part of any STEM project. It begins with the identification of the problem followed by research, brainstorming, development of a solution, construction of a prototype, testing of that prototype, and the evaluation of the prototype. This is repeated as many times as needed to develop an adequate solution. This may seem daunting however it is very simple when taken one step at a time.</p>
 <h2>Problem definition</h2>
@@ -29,7 +28,7 @@ export default () => (
 <h2>Evaluation of the solution</h2>
 <p>This is the process of organizing the test results, weighting them if necessary, and determining if the solution fulfils the design requirements established in the identification of the problem.</p>
 <h2>Repeat</h2>
-<p>The steps of this process are typically repeated many times, this iteration on concepts is part of what makes the engineering process successful. </p>
+<p>The steps of this process are typically repeated many times, this iteration on concepts is part of what makes the engineering process successful.</p>
     </div>
     <Footer />
   </div>

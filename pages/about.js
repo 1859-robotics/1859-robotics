@@ -109,10 +109,6 @@ export default () => (
         </Animate>
       </div>
     </section>
-    <section className="purple">
-      <h2>What is up with all of this purple‽</h2>
-      <p>It is the designer's favorite color. fight me!</p>
-    </section>
     <Footer />
   </div>
 )

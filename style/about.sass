@@ -6,6 +6,9 @@ section
     max-width: $section-width
     width: 90%
     margin: 0 auto
+    overflow-x: hidden
+    +max-width(480px)
+      width: 95%
     h1
       font-size: 56px
       +max-width(640px)
@@ -56,7 +59,11 @@ section
   padding: 32px
   background-color: $dark-bg
   color: rgba(#fff, 0.85)
-
+  p
+    +max-width(840px)
+      font-size: 18px
+    +max-width(700px)
+      font-size: 16px
 .coaches
   background-color: #fafafa
   color: rgba(#000, 0.85)
@@ -70,7 +77,7 @@ section
     background-color: #fff
     padding: 16px
     margin: 16px
-    max-width: 480px
+    max-width: 360px
     width: 50%
     box-shadow: 0px 4px 12px -4px rgba(0, 0, 0, 0.3)
     display: flex
@@ -78,6 +85,8 @@ section
     justify-content: center
     flex-direction: column
     opacity: 0
+    +max-width(960px)
+      width: 100%
     h3
       text-align: center
       margin-bottom: 8px
@@ -140,9 +149,3 @@ section.mentors
         bottom: calc(50% - 250px)
         width: 500px
         height: 500px
-
-.purple
-  color: $main
-  text-align: center
-  background-color: $dark-bg
-  padding: 16px
