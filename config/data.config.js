@@ -1,3 +1,5 @@
+const posts = require("./blog.config.json")
+
 module.exports = {
   number: "1859",
   school: "JCTC",
@@ -193,19 +195,7 @@ module.exports = {
   blog: {
     outputDir: "./pages/blog/",
     inputDir: "./content/blog/",
-    posts: [
-      {
-        title: "Our thoughts on turning point",
-        url: "blog/thoughts-on-turning-point",
-      },
-      {
-        title: "In the zone season review",
-        url: "blog/in-the-zone-season-review",
-      },
-      {
-        title: "The design process",
-        url: "blog/the-design-process",
-      },
-    ]
+    configDir: "./config/",
+    posts: posts.posts
   }
 }

@@ -22,6 +22,7 @@ export default class Blog extends React.Component {
           <a href={ post.url }>
             <div className="card">
               <h1>{ post.title }</h1>
+              <p>{ post.preview }</p>
             </div>
           </a>
         )) }

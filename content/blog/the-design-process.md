@@ -2,6 +2,7 @@
 title: The design process
 author: Alexa Griffin
 date: 10-12-2018
+preview: An introduction to the engineering design process
 ---
 
 The engineering design process is a vital part of any STEM project. It begins with the identification of the problem followed by research, brainstorming, development of a solution, construction of a prototype, testing of that prototype, and the evaluation of the prototype. This is repeated as many times as needed to develop an adequate solution. This may seem daunting however it is very simple when taken one step at a time.

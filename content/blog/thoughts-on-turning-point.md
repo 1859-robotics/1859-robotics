@@ -2,6 +2,7 @@
 title: Thoughts on turning point
 author: Alexa Griffin
 date: 1-12-2018
+preview: Our initial thoughts on the 2018-2019 game: turning point
 ---
 
 So the new VRC game just got released, this one is insane, my initial thoughts are somewhat positive before learning that balls must be shot to toggle high flags I thought this game would be slightly too easy. I do not think this game is as good as starstruck was however I do think turning point is better than in the zone.

@@ -2,6 +2,7 @@
 title: In the zone season review
 author: Alexa Griffin, Hannah Headie, Jared Deton
 date: 10-12-2018
+preview: We did a lot in 2017-2018 this is all of that summarized
 ---
 
 ## 1859 as an organization
