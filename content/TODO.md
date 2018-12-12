@@ -1,12 +1,12 @@
 - [ ] getting into STEM
-- [ ] thoughts on turning point
-- [ ] the design process
+- [x] thoughts on turning point
+- [x] the design process
 - [ ] engineering as a career
 - [ ] time management
 - [ ] team process
 - [ ] something about girl powered
 - [ ] season review
-- [ ] website design process
+- [-] website design process
 - [ ] some specific stuff about various sub components
 - [ ] prob something about bo1
 - [ ] something about V5
