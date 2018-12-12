@@ -34,14 +34,14 @@ function readFiles(dirname, onFileContent, onError) {
 
 readFiles(config.blog.inputDir, (filename, content) => {
   var converter = new showdown.Converter(showdownConfig)
-
+  if(content === "") return
   var converted = converter.makeHtml(content)
   var metadata = converter.getMetadata()
   var output = template.str.replace("%%CONTENT%%", converted)
 
 
   Object.keys(metadata).forEach(key => {
-    output = output.replace(new RegExp("%%" + key.toUpperCase() + "%%", 'g'), metadata[key])
+    output = output.replace(new RegExp("%%" + key.toUpperCase() + "%%", 'g'), metadata[key] || "")
   })
 
   fs.writeFile(config.blog.outputDir + filename.replace(".md", ".js"), output, 'utf8', () => {
