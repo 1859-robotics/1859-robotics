@@ -28,7 +28,9 @@ export default () => (
             <h2>{ action.title }</h2>
             <p>{ action.desc }</p>
           </div>
-          <img src={ action.img } alt={ action.title }/>
+          { action.img && (
+            <img src={ action.img } alt={ action.title }/>
+          )}
         </section>
       </Animate>
     )) }

@@ -24,21 +24,21 @@ module.exports = {
       logo: "static/imgs/sponsors/banks-engineering.png",
       link: "https://www.banksengineering.net"
     },
-    {
-      name: "Banks engineering",
-      logo: "static/imgs/sponsors/banks-engineering.png",
-      link: "https://www.banksengineering.net"
-    },
-    {
-      name: "Banks engineering",
-      logo: "static/imgs/sponsors/banks-engineering.png",
-      link: "https://www.banksengineering.net"
-    },
+    // {
+    //   name: "Banks engineering",
+    //   logo: "static/imgs/sponsors/banks-engineering.png",
+    //   link: "https://www.banksengineering.net"
+    // },
+    // {
+    //   name: "Banks engineering",
+    //   logo: "static/imgs/sponsors/banks-engineering.png",
+    //   link: "https://www.banksengineering.net"
+    // },
   ],
   externalContacts: [
-    { name: "email: 123@jctc.com", link: "123@jctc.com" },
-    { name: "twitter: @twitter", link: "twitter-link" },
-    { name: "instagram: @instagram", link: "instagram-link" },
+    { name: "email: 1859.robotics@gmail.com", link: "mailto: 1859.robotics@gmail.com" },
+    { name: "twitter: @1859Robotics", link: "https://twitter.com/1859Robotics" },
+    { name: "instagram: 1859Robotics", link: "https://www.instagram.com/1859robotics/" },
   ],
   historyPara: "JCTC robotics was unofficially founded in 2015, consisting of students from 2 schools, East and West jessamine highschools, we began with almost nothing. \
                 a getto field peiced together from pvc pipes, one team with a bot that wouldn't stay together, and \
@@ -133,64 +133,64 @@ module.exports = {
   outreach: [ //TODO: ask for this
     {
       title: "PLTW",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
-      img: "https://via.placeholder.com/300x140.png"
+      desc: "JCTC is a proud PLTW school.",
+      // img: "https://via.placeholder.com/300x140.png"
     },
     {
       title: "TSA",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
-      img: "https://via.placeholder.com/300x140.png"
+      desc: "In addition to VEX we also do TSA! In order to support our members who are not interested or do not have the time to do VEX we also compete in TSA.",
+      // img: "https://via.placeholder.com/300x140.png"
     },
     {
       title: "Radio",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
-      img: "https://via.placeholder.com/300x140.png"
+      desc: "Each year the best and brightest of our students go on public radio to help raise awareness for STEM.",
+      // img: "https://via.placeholder.com/300x140.png"
     },
     {
-      title: "library thing",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
-      img: "https://via.placeholder.com/300x140.png"
+      title: "Library STEM Extravaganza",
+      desc: "Each year at the Jessamine County Public Library we host a STEM get together for some of the youngest minds in Kentucky!",
+      // img: "https://via.placeholder.com/300x140.png"
     },
     {
-      title: "other thing",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
-      img: "https://via.placeholder.com/300x140.png"
+      title: "STLP",
+      desc: "Due to lack of resources STLP was recently removed from JCTC club day, we brought the many students left without a STEM outlet into VEX.",
+      // img: "https://via.placeholder.com/300x140.png"
     },
-    {
-      title: "we prob",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
-      img: "https://via.placeholder.com/300x140.png"
-    },
-    {
-      title: "need",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
-      img: "https://via.placeholder.com/300x140.png"
-    },
-    {
-      title: "at least",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
-      img: "https://via.placeholder.com/300x140.png"
-    },
-    {
-      title: "a lot",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
-      img: "https://via.placeholder.com/300x140.png"
-    },
-    {
-      title: "of these",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
-      img: "https://via.placeholder.com/300x140.png"
-    },
-    {
-      title: "they can be",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
-      img: "https://via.placeholder.com/300x140.png"
-    },
-    {
-      title: "really stretching it tho",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
-      img: "https://via.placeholder.com/300x140.png"
-    },
+    // {
+    //   title: "we prob",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
+    //   // img: "https://via.placeholder.com/300x140.png"
+    // },
+    // {
+    //   title: "need",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
+    //   img: "https://via.placeholder.com/300x140.png"
+    // },
+    // {
+    //   title: "at least",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
+    //   img: "https://via.placeholder.com/300x140.png"
+    // },
+    // {
+    //   title: "a lot",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
+    //   img: "https://via.placeholder.com/300x140.png"
+    // },
+    // {
+    //   title: "of these",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
+    //   img: "https://via.placeholder.com/300x140.png"
+    // },
+    // {
+    //   title: "they can be",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
+    //   img: "https://via.placeholder.com/300x140.png"
+    // },
+    // {
+    //   title: "really stretching it tho",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores delectus at dicta quis ipsa? Error maiores recusandae sit consequatur hic, nam deleniti omnis distinctio odio quisquam ut dolore magni.",
+    //   img: "https://via.placeholder.com/300x140.png"
+    // },
   ],
   blog: {
     outputDir: "./pages/blog/",

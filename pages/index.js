@@ -9,7 +9,7 @@ import Icon from '../components/Icon.js'
 import config from "../config/data.config.js"
 import "../style/index.sass"
 
-const are = ["inventors", "dreamers", "the future", "engineers", "students", "leaders", config.name]
+const are = ["inventors", "dreamers", "engineers", "students", "leaders", config.name]
 
 export default class Index extends React.Component {
   static async getInitialProps() {
@@ -121,17 +121,17 @@ export default class Index extends React.Component {
       </section>
       <section className="contact">
         <h1>Contact Us</h1>
-        <p>We'll get back soon, we are happy to talk!</p>
+        <p>We'll get back as soon as we can, we are happy to talk!</p>
         <div className="cols">
-          <div className="col">
+          {/* <div className="col">
             <h2>Send us a message</h2>
             <input type="text" placeholder="your name"/>
             <input type="text" placeholder="your email"/>
             <textarea placeholder="what do you want to talk about?"></textarea>
             <button>Send it</button>
-          </div>
-          <div className="col">
-            <h2>Or find us at:</h2>
+          </div> */}
+          <div className="col txt">
+            <h2>Find us at:</h2>
             { config.externalContacts.map((contact, i) => (
               <a href={ contact.link } key={ i }>
                 { contact.name }

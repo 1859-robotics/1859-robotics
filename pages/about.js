@@ -78,13 +78,13 @@ export default () => (
           targets: e.childNodes,
           delay: (el, i) => 100 * i,
           duration: 300,
-          scale: [ 0.9, 1 ],
+          translateY: [ -20, 0 ],
           opacity: [ 0, 1 ],
         })} scroll={ true } scrollTarget=".about .mentors" offset={300}>
           <div className="mentors">
           {
             config.mentors.map((mentor, i) => (
-              <div className="mentor" style={{ transform: "scale(0.9)", opacity: 0 }}>
+              <div className="mentor" style={{ transform: "scale(-20)", opacity: 0 }}>
                 <h3>{ mentor.name }</h3>
                 <p>{ mentor.desc }</p>
                 <img src={mentor.pic || "static/imgs/person.png"} alt={mentor.name}/>
