@@ -1,2 +1,5 @@
 const withSass = require('@zeit/next-sass')
-module.exports = withSass()
+module.exports = withSass({
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/1859' : '',
+}
+)
