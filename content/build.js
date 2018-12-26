@@ -34,7 +34,7 @@ readFiles(config.blog.inputDir, (filename, content) => {
 
   postData.push({
     title: metadata.title,
-    url: filename.replace(".md", ""),
+    url: "blog/" + filename.replace(".md", ""),
     preview: metadata.preview
   })
 
