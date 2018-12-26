@@ -1,6 +1,6 @@
 var fs = require('fs')
 var config = require("../config/data.config.js")
-var template = require("./template.js")
+var template = require("./blog-template.js")
 var showdown  = require('showdown')
 
 var showdownConfig = {

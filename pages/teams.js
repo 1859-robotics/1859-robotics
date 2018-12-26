@@ -14,7 +14,7 @@ export default () => (
     { config.teams.map((team, i) => (
       <a className="team" key={ i } style={{
         backgroundColor: team.color
-      }} href={ "/teams/" + team.number }>
+      }} href={ "#" /*"/teams/" + team.number*/ }>
       <h1 style={{ color: team.txtColor }}>{ team.number }</h1>
       <img src={team.bgPath} alt={ team.name }/>
       <h2 style={{ color: team.txtColor }}>{ team.name }</h2>

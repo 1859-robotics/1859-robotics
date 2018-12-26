@@ -101,6 +101,7 @@ module.exports = {
     },
   ],
   aboutVEX: "VEX Competitions bring STEM skills to life by tasking teams of students with designing and building a robot to play against other teams in a game-based engineering challenge. ",
+  teamDir: "./pages/teams/",
   teams: [
     {
       number: "1859X",
