@@ -82,7 +82,8 @@ module.exports = {
     },
     {
       name: "Meghan Banks",
-      desc: "I am Meghan Banks, I joined just last year however have quickly become 'team mom' I teach engineering at JCTC and Andrea O'bryaan actually taught me bringing the whole thing full circle."
+      desc: "I am Meghan Banks, I joined just last year however have quickly become 'team mom' I teach engineering at JCTC and Andrea O'bryaan actually taught me bringing the whole thing full circle.",
+      pic: "static/imgs/banks.png"
     }
   ],
   mentors: [

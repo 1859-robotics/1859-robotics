@@ -12,7 +12,7 @@ export default () => (
     <div className="content">
       <div className="by">
         <h1>In the zone season review</h1>
-        <p>By: Alexa Griffin, Hannah Headie, Jared Deton - 10-12-2018</p>
+        <p>By: Alexa Griffin, Hannah Headie, Jared Deton - 15-5-2018</p>
       </div>
       <h2>1859 as an organization</h2>
 <p>Overall this was the first year that we all got serious, we got 3 of our teams to worlds, won state skills and competition, won more awards then the combined history of the program. We feel that this has been an extremely successful season overall and hope to continue this success.</p>
