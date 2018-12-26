@@ -4,9 +4,6 @@ import anime from 'animejs'
 import Header from "../components/Header.js"
 import Footer from "../components/Footer.js"
 import Head from "../components/Head.js"
-import Animate from '../components/Animate.js'
-import Icon from '../components/Icon.js'
-import Link from 'next/link'
 import config from "../config/data.config.js"
 import "../style/blog.sass"
 

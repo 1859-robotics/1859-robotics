@@ -34,11 +34,9 @@ readFiles(config.blog.inputDir, (filename, content) => {
 
   postData.push({
     title: metadata.title,
-    url: "blog/" + filename.replace(".md", ""),
+    url: filename.replace(".md", ""),
     preview: metadata.preview
   })
-
-  console.log(metadata.preview)
 
   Object.keys(metadata).forEach(key => {
     output = output.replace(new RegExp("%%" + key.toUpperCase() + "%%", 'g'), metadata[key] || "")

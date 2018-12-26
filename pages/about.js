@@ -56,7 +56,7 @@ export default () => (
               <div className="card" style={{ transform: "translateX(" + (i % 2 ? 30 : -30) + "px)" }}>
                 <h3>{ coach.name }</h3>
                 <p>{ coach.desc }</p>
-                <img src={coach.pic || "static/imgs/person.png"} alt={coach.name}/>
+                <img src={coach.pic || "../static/imgs/person.png"} alt={coach.name}/>
               </div>
             ))
           }
@@ -87,7 +87,7 @@ export default () => (
               <div className="mentor" style={{ transform: "scale(-20)", opacity: 0 }}>
                 <h3>{ mentor.name }</h3>
                 <p>{ mentor.desc }</p>
-                <img src={mentor.pic || "static/imgs/person.png"} alt={mentor.name}/>
+                <img src={mentor.pic || "../static/imgs/person.png"} alt={mentor.name}/>
               </div>
             ))
           }

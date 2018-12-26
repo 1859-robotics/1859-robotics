@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import "../style/header.sass"
 import Animate from "../components/Animate.js"
 
@@ -20,11 +19,11 @@ export default props => (
       opacity: [ 0, 1 ]
     })} timeout={400}>
       <ul>
-        <li style={{ opacity: 0 }}><Link href="/"><a>home</a></Link></li>
-        <li style={{ opacity: 0 }}><Link href="/about"><a>about</a></Link></li>
-        <li style={{ opacity: 0 }}><Link href="/outreach"><a>outreach</a></Link></li>
-        <li style={{ opacity: 0 }}><Link href="/teams"><a>teams</a></Link></li>
-        <li style={{ opacity: 0 }}><Link href="/blog"><a>blog</a></Link></li>
+        <li style={{ opacity: 0 }}><a href="/">home</a></li>
+        <li style={{ opacity: 0 }}><a href="/about">about</a></li>
+        <li style={{ opacity: 0 }}><a href="/outreach">outreach</a></li>
+        <li style={{ opacity: 0 }}><a href="/teams">teams</a></li>
+        <li style={{ opacity: 0 }}><a href="/blog">blog</a></li>
       </ul>
     </Animate>
     </nav>
