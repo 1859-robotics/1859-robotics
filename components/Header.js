@@ -6,7 +6,7 @@ export default props => (
   <div className="logo">
     <img src={props.logo || "static/logo-white.svg"} alt="logo"/>
   </div>
-  <div class="ham" onClick={ e => document.getElementById("header").classList.toggle("active") }>
+  <div className="ham" onClick={ e => document.getElementById("header").classList.toggle("active") }>
     <span></span>
     <span></span>
     <span></span>
