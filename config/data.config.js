@@ -56,7 +56,7 @@ module.exports = {
     },
     {
       q: "What is VEX?",
-      a: "VEX is a robotics competition to engage and inspire students in STEM feilds. VEX create tools that educators and mentors will use to shape the learners of today into the problem solving leaders of tomorrow.",
+      a: "VEX is a robotics competition to engage and inspire students in STEM feilds. VEX creates tools that educators and mentors will use to shape the learners of today into the problem solving leaders of tomorrow.",
       link: "#vex"
     },
     {
@@ -97,7 +97,7 @@ module.exports = {
     },
     {
       name: "andi",
-      desc: "Andrea O'bryan, once a coach, has since left the program to pursue being a member of the board of edjucation"
+      desc: "Andrea O'bryan, once a coach, has since left the program to pursue being a member of the board of education"
     },
   ],
   aboutVEX: "VEX Competitions bring STEM skills to life by tasking teams of students with designing and building a robot to play against other teams in a game-based engineering challenge. ",
@@ -108,28 +108,32 @@ module.exports = {
       name: "The Gladiators",
       color: "#ffc53d",
       txtColor: "rgba(0,0,0,0.85)",
-      bgPath: "static/imgs/teams/gladiators.jpg"
+      bgPath: "static/imgs/teams/gladiators.jpg",
+      desc: "The original 1859 team, X has been with us since the beginning. In X go the brave and budding."
     },
     {
       number: "1859W",
       name: "The Walruses",
       color: "#91d5ff",
       txtColor: "rgba(0,0,0,0.85)",
-      bgPath: "static/imgs/teams/walruses.jpg"
+      bgPath: "static/imgs/teams/walruses.jpg",
+      desc: "In W go the powerful. Those who seek and those who have power are forged here."
     },
     {
       number: "1859S",
       name: "The Cobras",
       color: "#2f54eb",
       txtColor: "rgba(255,255,255,0.85)",
-      bgPath: "static/imgs/teams/cobras.jpg"
+      bgPath: "static/imgs/teams/cobras.jpg",
+      desc: "In S go the dedicated. Those who put in the most time go here and are oft awarded for their efforts."
     },
     {
       number: "1859Z",
       name: "The Raptors",
       color: "#52c41a",
       txtColor: "rgba(0,0,0,0.85)",
-      bgPath: "static/imgs/teams/raptors.jpg"
+      bgPath: "static/imgs/teams/raptors.jpg",
+      desc: "In Z go all else. Those loyal and true are forged here"
     },
   ],
   outreach: [ //TODO: ask for this
