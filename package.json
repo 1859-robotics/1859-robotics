@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "build-content": "node content/build-blog.js && node content/build-teams.js",
+    "build-content": "node content/build.js",
+    "watch-content": "node content/watch.js",
     "build-site": "next build",
     "start": "next start",
     "export": "npm run build && next export",
@@ -37,6 +38,7 @@
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
     "animejs": "^2.2.0",
+    "chokidar": "^2.0.4",
     "material-icons-react": "^1.0.4",
     "next": "^7.0.2",
     "node-sass": "^4.10.0",

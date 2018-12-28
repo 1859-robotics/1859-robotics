@@ -25,35 +25,39 @@ function readFiles(dirname, onFileContent, onError, callback) {
 
 var postData = []
 
-readFiles(config.blog.inputDir, (filename, content) => {
-  var converter = new showdown.Converter(showdownConfig)
-  if(content === "") return
-  var converted = converter.makeHtml(content)
-  var metadata = converter.getMetadata()
-  var output = template.str.replace("%%CONTENT%%", converted)
+function build() {
+  readFiles(config.blog.inputDir, (filename, content) => {
+    var converter = new showdown.Converter(showdownConfig)
+    if(content === "") return
+    var converted = converter.makeHtml(content)
+    var metadata = converter.getMetadata()
+    var output = template.str.replace("%%CONTENT%%", converted)
+  
+    postData.push({
+      title: metadata.title,
+      url: "blog/" + filename.replace(".md", ""),
+      preview: metadata.preview
+    })
+  
+    Object.keys(metadata).forEach(key => {
+      output = output.replace(new RegExp("%%" + key.toUpperCase() + "%%", 'g'), metadata[key] || "")
+    })
+  
+    // I really don't want to deal with async stuff fight me
+  
+    fs.writeFileSync(config.blog.outputDir + filename.replace(".md", ".js"), output, 'utf8')
+    console.log("wrote " + filename + " successfully")
+  
+  }, err => {
+    throw err
+  }, _ => {
+    const postJSON = {
+      posts: postData
+    }
+    fs.writeFileSync(config.blog.configDir + "blog.config.json", JSON.stringify(postJSON))
+  })  
+}
 
-  postData.push({
-    title: metadata.title,
-    url: "blog/" + filename.replace(".md", ""),
-    preview: metadata.preview
-  })
-
-  Object.keys(metadata).forEach(key => {
-    output = output.replace(new RegExp("%%" + key.toUpperCase() + "%%", 'g'), metadata[key] || "")
-  })
-
-  // I really don't want to deal with async stuff fight me
-
-  fs.writeFileSync(config.blog.outputDir + filename.replace(".md", ".js"), output, 'utf8')
-  console.log("wrote " + filename + " successfully")
-
-}, err => {
-  throw err
-}, _ => {
-  const postJSON = {
-    posts: postData
-  }
-
-  fs.writeFileSync(config.blog.configDir + "blog.config.json", JSON.stringify(postJSON))
-
-})
+module.exports = {
+  build
+}
