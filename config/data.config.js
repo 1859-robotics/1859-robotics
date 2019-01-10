@@ -13,11 +13,6 @@ module.exports = {
     red: "#ff7875",
     blue: "#85a5ff"
   },
-  latest: {
-    title: "hello this is a test!",
-    link: "/",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores aspernatur architecto molestiae provident ex id consectetur velit. Tempora, magni, optio."
-  },
   sponsors: [
     {
       name: "Banks engineering",
@@ -47,7 +42,7 @@ module.exports = {
                 this fired everyone up beyond any and all expectations and the program picked up a lot of steam. Suddenly many other students were interested in joining, and many of the existing members \
                 became more dedicated to winning. With this dedication we went on to win 1st and 2nd place, as well as skills, at state in 2017-2018's game: In The Zone. \
                 three of our teams qualified for worlds that year and even won awards. We hope that our program contenues to grow at this rate for the future.",
-  joinPara: "To join simply contact greg caminisch, please note that you will have to be currrently enrolled in east or west jessamine high school or middle school",
+  joinPara: "To join simply contact greg caminisch, please note that you will have to be currrently enrolled in the jessamine county school system. If you wish to become a partner or sponsor ",
   faq: [
     {
       q: "What are your teams?",
@@ -77,7 +72,7 @@ module.exports = {
   ],
   coaches: [
     {
-      name: "Greg",
+      name: "Greg Camenisch",
       desc: "I am Greg Camenisch, I am one of the first movers for the 1859 Robotics organization and along with Andrea O'bryan formed the first 1859 team. I still teach engineering at JCTC."
     },
     {
@@ -108,28 +103,32 @@ module.exports = {
       name: "The Gladiators",
       color: "#ffc53d",
       txtColor: "rgba(0,0,0,0.85)",
-      bgPath: "static/imgs/teams/gladiators.jpg"
+      bgPath: "static/imgs/teams/gladiators.jpg",
+      awards: 9,
     },
     {
       number: "1859W",
       name: "The Walruses",
       color: "#91d5ff",
       txtColor: "rgba(0,0,0,0.85)",
-      bgPath: "static/imgs/teams/walruses.jpg"
+      bgPath: "static/imgs/teams/walruses.jpg",
+      awards: 12,
     },
     {
       number: "1859S",
       name: "The Cobras",
       color: "#2f54eb",
       txtColor: "rgba(255,255,255,0.85)",
-      bgPath: "static/imgs/teams/cobras.jpg"
+      bgPath: "static/imgs/teams/cobras.jpg",
+      awards: 4,
     },
     {
       number: "1859Z",
       name: "The Raptors",
       color: "#52c41a",
       txtColor: "rgba(0,0,0,0.85)",
-      bgPath: "static/imgs/teams/raptors.jpg"
+      bgPath: "static/imgs/teams/raptors.jpg",
+      awards: 1,
     },
   ],
   outreach: [ //TODO: ask for this
