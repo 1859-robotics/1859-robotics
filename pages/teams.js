@@ -21,8 +21,9 @@ export default () => (
         <h2>{ team.name }</h2>
         <div className="data">
           <div className="item">
-            <Icon icon="star"/>
             <p>Awards: { team.awards }</p>
+            <p>Best Skills Rank: { team.skills }</p>
+            <p>Worlds Appearances: { team.worlds }</p>
           </div>
         </div>
       </div>

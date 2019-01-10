@@ -105,6 +105,8 @@ module.exports = {
       txtColor: "rgba(0,0,0,0.85)",
       bgPath: "static/imgs/teams/gladiators.jpg",
       awards: 9,
+      worlds: 2,
+      skills: 89
     },
     {
       number: "1859W",
@@ -113,6 +115,8 @@ module.exports = {
       txtColor: "rgba(0,0,0,0.85)",
       bgPath: "static/imgs/teams/walruses.jpg",
       awards: 12,
+      worlds: 1,
+      skills: 155
     },
     {
       number: "1859S",
@@ -121,6 +125,8 @@ module.exports = {
       txtColor: "rgba(255,255,255,0.85)",
       bgPath: "static/imgs/teams/cobras.jpg",
       awards: 4,
+      worlds: 1,
+      skills: 102
     },
     {
       number: "1859Z",
@@ -129,6 +135,8 @@ module.exports = {
       txtColor: "rgba(0,0,0,0.85)",
       bgPath: "static/imgs/teams/raptors.jpg",
       awards: 1,
+      worlds: 0,
+      skills: 372
     },
   ],
   outreach: [ //TODO: ask for this
