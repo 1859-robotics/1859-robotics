@@ -14,6 +14,9 @@ preview: We did a lot in 2017-2018 this is all of that summarized
 ---
 
 ## 1859W
+  We are overwhelmingly happy with how this year turned out, not only did we make it to worlds but we also won the think award there. This was better than our wildest dreams and we could not be more happy. Our team had some issues with team management and communication however this pales in comparison to how amazing we feel we did. 
 
+---
 
 ## 1859S
+  Thanks to the 1859X programmer we were able to win the Kentucky skills award, we started out pretty rough however we still ended up getting there in the end, we went to worlds for the first time and had an amazing time there.
