@@ -139,12 +139,6 @@ header.active .ham {
 body {
   margin-top: 88px; }
 
-footer {
-  color: rgba(255, 255, 255, 0.85);
-  text-align: center;
-  padding: 8px;
-  background-color: #141517; }
-
 * {
   margin: 0;
   padding: 0;
@@ -161,193 +155,51 @@ a {
   background-color: #b37feb;
   color: #202124; }
 
-.hero {
-  background-color: #b37feb;
-  height: 80vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  flex-direction: column; }
-  .hero .bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.2;
-    background-size: cover;
-    background-position: center; }
-  .hero > img {
-    height: 128px;
-    margin-bottom: 8px;
-    position: relative;
-    z-index: 1; }
-  .hero > h1 {
-    font-size: 56px;
-    color: #fff;
-    position: relative;
-    display: inline-block;
-    flex-wrap: nowrap;
-    text-align: center;
-    z-index: 1; }
-    @media screen and (max-width: 640px) {
-      .hero > h1 {
-        font-size: 42px; } }
-    @media screen and (max-width: 520px) {
-      .hero > h1 {
-        font-size: 36px; } }
-    .hero > h1 span {
-      position: relative;
-      display: inline-block;
-      white-space: nowrap;
-      overflow: hidden; }
-  .hero .latest {
-    position: absolute;
-    width: 100%;
-    bottom: -30px;
-    right: 0; }
-    .hero .latest .card {
-      padding: 16px;
-      margin: 16px;
-      display: inline-block;
-      float: right;
-      background-color: #fff;
-      box-shadow: 0px 6px 32px 3px rgba(0, 0, 0, 0.1); }
+footer {
+  color: rgba(255, 255, 255, 0.85);
+  text-align: center;
+  padding: 8px;
+  background-color: #141517; }
 
-section.about {
-  background-color: #202124; }
-  section.about .cards {
+.blog {
+  background-color: #fafafa; }
+  .blog .posts {
+    padding: 16px;
     max-width: 1080px;
-    width: 90%;
-    margin: 0 auto;
-    padding: 32px 0 16px;
-    display: flex;
-    align-items: stretch;
-    justify-content: center; }
-    @media screen and (max-width: 800px) {
-      section.about .cards {
-        flex-wrap: wrap; } }
-    section.about .cards .card {
-      background-color: #fff;
-      opacity: 0;
-      transform: translateY(-30px);
+    margin: 8px auto; }
+    .blog .posts .card {
       margin: 16px;
       padding: 8px;
-      width: 100%;
-      max-width: 300px;
-      box-shadow: 0px 6px 32px 3px rgba(0, 0, 0, 0.5);
-      cursor: pointer;
-      text-align: center; }
-      section.about .cards .card img {
-        width: 64px;
-        height: 64px; }
-      section.about .cards .card h2 {
-        margin-bottom: 4px; }
-      section.about .cards .card p {
-        font-size: 16px;
-        line-height: 1.6em; }
+      background-color: #fff;
+      box-shadow: 0px 4px 12px -4px rgba(0, 0, 0, 0.1); }
 
-section h1 {
-  font-size: 56px;
-  margin-bottom: 8px;
-  text-align: center; }
-  @media screen and (max-width: 640px) {
-    section h1 {
-      font-size: 42px; } }
-  @media screen and (max-width: 520px) {
-    section h1 {
-      font-size: 36px; } }
-
-section p {
-  line-height: 1.6em;
-  font-size: 20px;
-  text-align: center; }
-  @media screen and (max-width: 640px) {
-    section p {
-      font-size: 18px; } }
-
-.brief {
-  margin: 64px auto;
-  max-width: 1080px;
-  width: 90%; }
-
-.sponsors {
-  background-color: #f1f1f1;
-  padding: 16px; }
-  .sponsors .inner {
-    width: 90%;
-    max-width: 1080px;
-    margin: 0 auto; }
-  .sponsors .logos {
-    margin-top: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    overflow: hidden; }
-    .sponsors .logos img {
-      width: 240px;
-      margin: 10px; }
-
-.contact {
-  padding: 16px;
-  background-color: #202124;
-  color: rgba(255, 255, 255, 0.85); }
-  .contact > p {
-    margin-bottom: 16px; }
-  .contact .cols {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center; }
-    @media screen and (max-width: 840px) {
-      .contact .cols {
-        flex-wrap: wrap; } }
-    .contact .cols .col {
-      width: 100%;
-      padding: 16px;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: baseline; }
-      .contact .cols .col h2 {
-        margin: 8px;
-        width: 100%; }
-        @media screen and (max-width: 840px) {
-          .contact .cols .col h2 {
-            text-align: center; } }
-      .contact .cols .col > a {
-        font-size: 18px;
-        margin-bottom: 6px;
-        display: block;
-        width: 100%; }
-      .contact .cols .col input {
-        width: calc(50% - 16px); }
-        @media screen and (max-width: 500px) {
-          .contact .cols .col input {
-            width: 100%; } }
-      .contact .cols .col textarea {
-        width: calc(100% - 16px);
-        resize: vertical; }
-      .contact .cols .col button {
-        margin: 8px;
-        padding: 12px 16px;
-        cursor: pointer;
-        background-color: rgba(255, 255, 255, 0.85);
-        transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
-        .contact .cols .col button:hover {
-          background-color: #b37feb; }
-      .contact .cols .col input, .contact .cols .col textarea {
-        margin: 8px;
-        padding: 12px 16px;
-        background-color: transparent;
-        color: rgba(255, 255, 255, 0.85);
-        border: 3px solid rgba(255, 255, 255, 0.85);
-        transition: border-color 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
-        .contact .cols .col input:focus, .contact .cols .col textarea:focus {
-          border-color: #b37feb; }
-      .contact .cols .col.txt {
-        text-align: center; }
+.blog-post > .content {
+  padding: 32px 16px 16px;
+  max-width: 720px;
+  margin: 8px auto; }
+  .blog-post > .content .by h1 {
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 1.6em;
+    margin-bottom: 32px; }
+    .blog-post > .content .by h1::after {
+      display: none; }
+  .blog-post > .content h1, .blog-post > .content h2, .blog-post > .content h3, .blog-post > .content h4, .blog-post > .content h5, .blog-post > .content h6 {
+    margin-bottom: 0.5em;
+    position: relative; }
+    .blog-post > .content h1::after, .blog-post > .content h2::after, .blog-post > .content h3::after, .blog-post > .content h4::after, .blog-post > .content h5::after, .blog-post > .content h6::after {
+      content: "";
+      position: absolute;
+      display: block;
+      height: 2px;
+      background-color: #b37feb;
+      width: 64px;
+      bottom: -2px;
+      left: 0; }
+  .blog-post > .content p {
+    font-size: 18px;
+    line-height: 1.8em;
+    margin-bottom: 1.8em; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/
