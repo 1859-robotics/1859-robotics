@@ -6,7 +6,7 @@
   align-items: center
   flex-wrap: wrap
   .team
-    height: 360px
+    height: 50vh
     width: 50%
     display: flex
     align-items: center
@@ -28,6 +28,17 @@
       opacity: 0
       top: -40px
       +transition(0.3s)
+    .item
+      text-align: center
+      opacity: 0
+      transform: scale(0.8)
+      +transition(0.3s)
+      font-size: 18px
+      padding: 8px
+      p
+        display: inline-block
+        padding: 8px
+        margin: 0 8px
     &:hover
       >img
         opacity: 0.3
@@ -35,3 +46,6 @@
       >h2
         opacity: 1
         top: 0
+      .item
+        opacity: 1
+        transform: scale(1)

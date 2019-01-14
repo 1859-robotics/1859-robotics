@@ -13,11 +13,6 @@ module.exports = {
     red: "#ff7875",
     blue: "#85a5ff"
   },
-  latest: {
-    title: "hello this is a test!",
-    link: "/",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores aspernatur architecto molestiae provident ex id consectetur velit. Tempora, magni, optio."
-  },
   sponsors: [
     {
       name: "Banks engineering",
@@ -47,7 +42,7 @@ module.exports = {
                 this fired everyone up beyond any and all expectations and the program picked up a lot of steam. Suddenly many other students were interested in joining, and many of the existing members \
                 became more dedicated to winning. With this dedication we went on to win 1st and 2nd place, as well as skills, at state in 2017-2018's game: In The Zone. \
                 three of our teams qualified for worlds that year and even won awards. We hope that our program contenues to grow at this rate for the future.",
-  joinPara: "To join simply contact greg caminisch, please note that you will have to be currrently enrolled in east or west jessamine high school or middle school",
+  joinPara: "To join simply contact greg caminisch, please note that you will have to be currrently enrolled in the jessamine county school system. If you wish to become a partner or sponsor ",
   faq: [
     {
       q: "What are your teams?",
@@ -77,7 +72,7 @@ module.exports = {
   ],
   coaches: [
     {
-      name: "Greg",
+      name: "Greg Camenisch",
       desc: "I am Greg Camenisch, I am one of the first movers for the 1859 Robotics organization and along with Andrea O'bryan formed the first 1859 team. I still teach engineering at JCTC."
     },
     {
@@ -109,7 +104,9 @@ module.exports = {
       color: "#ffc53d",
       txtColor: "rgba(0,0,0,0.85)",
       bgPath: "static/imgs/teams/gladiators.jpg",
-      desc: "The original 1859 team, X has been with us since the beginning. In X go the brave and budding."
+      awards: 9,
+      worlds: 2,
+      skills: 89
     },
     {
       number: "1859W",
@@ -117,7 +114,9 @@ module.exports = {
       color: "#91d5ff",
       txtColor: "rgba(0,0,0,0.85)",
       bgPath: "static/imgs/teams/walruses.jpg",
-      desc: "In W go the powerful. Those who seek and those who have power are forged here."
+      awards: 12,
+      worlds: 1,
+      skills: 155
     },
     {
       number: "1859S",
@@ -125,7 +124,9 @@ module.exports = {
       color: "#2f54eb",
       txtColor: "rgba(255,255,255,0.85)",
       bgPath: "static/imgs/teams/cobras.jpg",
-      desc: "In S go the dedicated. Those who put in the most time go here and are oft awarded for their efforts."
+      awards: 4,
+      worlds: 1,
+      skills: 102
     },
     {
       number: "1859Z",
@@ -133,7 +134,9 @@ module.exports = {
       color: "#52c41a",
       txtColor: "rgba(0,0,0,0.85)",
       bgPath: "static/imgs/teams/raptors.jpg",
-      desc: "In Z go all else. Those loyal and true are forged here"
+      awards: 1,
+      worlds: 0,
+      skills: 372
     },
   ],
   outreach: [ //TODO: ask for this
